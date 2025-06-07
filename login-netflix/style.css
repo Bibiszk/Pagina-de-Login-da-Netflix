@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.background-overlay {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4)),
+    url('https://www.okynemedialab.com/wp-content/uploads/2019/11/netflix-background-1024x576.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 140px;
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 60px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.login-container h1 {
+  font-size: 32px;
+  margin-bottom: 28px;
+}
+
+form input {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+}
+
+form button {
+  width: 100%;
+  padding: 16px;
+  background-color: #e50914;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #f40612;
+}
+
+.access-code {
+  background-color: #5c5c5c;
+}
+
+.access-code:hover {
+  background-color: #737373;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #b3b3b3;
+}
+
+.extras {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #b3b3b3;
+  margin-top: 10px;
+}
+
+.extras a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.extras a:hover {
+  text-decoration: underline;
+}
+
+.signup {
+  font-size: 14px;
+  margin-top: 40px;
+  color: #b3b3b3;
+}
+
+.signup a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+
+.signup small {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #8c8c8c;
+  line-height: 1.5;
+}
+
